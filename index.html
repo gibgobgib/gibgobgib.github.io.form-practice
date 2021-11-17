@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="heading">Enter Information</h1>
+            <br/>
+            <br/>
+            <br/>
+            <form class="padding" onsubmit="return validation();">
+                <label for="fname">Enter First Name: </label>
+                <input class="padding2" type="text" id="fname" name="fname">
+            
+                <label for="lname">Enter Last Name: </label>
+                <input class="padding2" type="text" id="lname" name="lname">
+                    <br/>
+                    <br/>
+                    <br/>
+                <label for="age">Enter Age: </label>
+                <input class="padding2" type="number" id="age" name="age">
+
+                <label for="mail">Enter Email: </label>
+                <input class="padding2" type="email" id="mail" name="mail">
+                    <br/>
+                    <br/>
+                    <br/>
+                <label for="uname">Enter Username: </label>
+                <input class="padding2" type="text" id="uname" name="uname">
+            
+                <label for="pword">Enter Password:</label>
+                <input class="padding2" type="text" id="pword" name="pword">
+                    <br/>
+                    <br/>
+                    <br/>
+                <label for="terms">Do You Agree to the Terms of Service?</label>
+                <input class="padding2" type="checkbox" id="terms" name="terms">
+                    <br/>
+                    <br/>
+                    <br/>
+                <input class="padding3" type="button" id="submit" name="submit" value="Sign Up!">
+            </form>
+    </div>
+</body>
+</html>

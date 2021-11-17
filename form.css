@@ -1,0 +1,47 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-image: linear-gradient( lightblue , white);
+    min-height: 100vh;
+}
+
+#heading {
+    color: black;
+    margin-top: 25px;
+}
+
+.container {
+    border: solid transparent 2px;
+    border-radius: 50px;
+    margin-bottom: 75px;
+    padding: 35px;
+}
+
+.padding {
+    padding: 40px;
+}
+
+.padding2 {
+    background-color: transparent;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-right: 25px;
+}
+
+.padding3 {
+    background-color: transparent;
+    font-size: 25px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.padding3:hover {
+    background-image: linear-gradient( lightblue , white);
+}
+
+#terms {
+    cursor: pointer;
+}
